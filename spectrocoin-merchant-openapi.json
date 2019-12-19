@@ -1,0 +1,149 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "SpectroCoin Merchant",
+        "description": "This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally.",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/spectrocoin.com\/api\/merchant\/1"
+    ],
+    "paths": {
+        "\/api\/createOrder": {
+            "post": {
+                "summary": "Create merchant order",
+                "description": "",
+                "operationId": "CreateOrder",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Order_information_class"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Order_information_class": {
+                "type": "object",
+                "properties": {
+                    "depositAddress": {
+                        "description": "Payment deposit address",
+                        "type": "string"
+                    },
+                    "orderId": {
+                        "description": "Merchant provided or generated order id",
+                        "type": "string"
+                    },
+                    "orderRequestId": {
+                        "description": "Generated unique order request id",
+                        "type": "integer"
+                    },
+                    "payAmount": {
+                        "description": "Amount of payment currency to be paid by merchant customer",
+                        "type": "number"
+                    },
+                    "payCurrency": {
+                        "description": "Currency to be paid with",
+                        "type": "string"
+                    },
+                    "receiveAmount": {
+                        "description": "Amount of receive currency to be funded to merchant account",
+                        "type": "number"
+                    },
+                    "receiveCurrency": {
+                        "description": "Currency to be funded to merchant account",
+                        "type": "string"
+                    },
+                    "redirectUrl": {
+                        "description": "SpectroCoin payment window url where merchant customer may be redirected",
+                        "type": "string"
+                    },
+                    "validUntil": {
+                        "description": "Timestamp until when order is valid",
+                        "type": "integer"
+                    }
+                }
+            },
+            "Order_request_class_used_to_provide_order_specific_information": {
+                "type": "object",
+                "properties": {
+                    "apiId": {
+                        "description": "API ID of specific API you have configured on your merchant account",
+                        "type": "integer"
+                    },
+                    "callbackUrl": {
+                        "description": "Url of merchant endpoint callback about order status to be returned",
+                        "type": "string"
+                    },
+                    "culture": {
+                        "description": "Merchant customer culture payment window to be presented",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "Order description. Will be presented for merchant customer at payment window",
+                        "type": "string"
+                    },
+                    "failureUrl": {
+                        "description": "Url of merchant page customer should be redirected after unsuccessful payment",
+                        "type": "string"
+                    },
+                    "merchantId": {
+                        "description": "Merchant ID assigned to your account",
+                        "type": "integer"
+                    },
+                    "orderId": {
+                        "description": "Merchant provided or generated order id",
+                        "type": "string"
+                    },
+                    "payAmount": {
+                        "description": "Amount of payment currency to be paid by merchant customer",
+                        "type": "number"
+                    },
+                    "payCurrency": {
+                        "description": "Currency to be paid with",
+                        "type": "string"
+                    },
+                    "payerEmail": {
+                        "description": "Specified payer email.",
+                        "type": "string"
+                    },
+                    "payerName": {
+                        "description": "Specified payer name.",
+                        "type": "string"
+                    },
+                    "payerSurname": {
+                        "description": "Specified payer surname.",
+                        "type": "string"
+                    },
+                    "receiveAmount": {
+                        "description": "Amount of receive currency to be funded to merchant account",
+                        "type": "number"
+                    },
+                    "receiveCurrency": {
+                        "description": "Currency to be funded to merchant account",
+                        "type": "string"
+                    },
+                    "sign": {
+                        "description": "Signature required for signing create order request",
+                        "type": "string"
+                    },
+                    "successUrl": {
+                        "description": "Url of merchant page customer should be redirected after successful payment",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
