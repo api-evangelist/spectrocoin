@@ -1,0 +1,143 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Spectro Coin Merchant",
+        "description": "This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsspectrocoin.com\/api\/merchant\/1"
+    ],
+    "paths": {
+        "\/api\/createOrder": {
+            "post": {
+                "summary": "Create merchant order",
+                "description": "Create merchant order",
+                "operationId": "CreateOrder",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Request to create order"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Order_information_class": {
+                "type": "object",
+                "properties": {
+                    "depositAddress": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderRequestId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payAmount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payCurrency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "receiveAmount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "receiveCurrency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "redirectUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "validUntil": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "Order_request_class_used_to_provide_order_specific_information": {
+                "type": "object",
+                "properties": {
+                    "apiId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "callbackUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "culture": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "failureUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "merchantId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "orderId": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payAmount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payCurrency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payerEmail": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payerName": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "payerSurname": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "receiveAmount": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "receiveCurrency": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "sign": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "successUrl": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            }
+        }
+    }
+}
