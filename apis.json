@@ -1,0 +1,103 @@
+{
+    "name": "SpectroCoin",
+    "description": "SpectroCoin offers bitcoin exchange, bitcoin wallet, bitcoin debit card, and bitcoin payment processing services. Buy and sell bitcoins through SEPA, international and local bank transfers, or credit and debit cards.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26436-spectrocoin-com.jpg",
+    "tags": [
+        "blockchain",
+        "financial services",
+        "general data",
+        "have api",
+        "have swagger",
+        "marketplaces",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/spectrocoin\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "SpectroCoin Merchant",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26436-spectrocoin-com.jpg",
+            "humanURL": "http:\/\/spectrocoin.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectrocoin-merchant.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectrocoin-merchant-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectrocoin-merchant-postman-collection.json"
+                }
+            ]
+        },
+        {
+            "name": "Spectro Coin Merchant",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/26436-spectrocoin-com.jpg",
+            "humanURL": "http:\/\/spectrocoin.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectro-coin-merchant.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectro-coin-merchant-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectro-coin-merchant-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/spectrocoin"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/26436-2019-09-04-01-31-03.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/26436-2019-09-04-01-31-18.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/26436-2019-09-04-01-33-38.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/26436-2019-09-04-01-35-10.json"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/26436-2019-09-03-20-29-16.json"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/spectrocoin"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/spectrocoin.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/spectrocoin.com"
+        }
+    ]
+}
