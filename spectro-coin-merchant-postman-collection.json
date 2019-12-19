@@ -1,0 +1,44 @@
+{
+    "id": "7a0e2f0a797e0f2ca65f2157e562511b",
+    "name": "Spectro Coin Merchant",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "ba93e0659828a23a2640c01c18ed55a3",
+            "name": "Create merchant order",
+            "url": "httpsspectrocoin.com\/api\/merchant\/1\/api\/createOrder",
+            "description": "Create merchant order",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "Request to create order",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7a0e2f0a797e0f2ca65f2157e562511b",
+            "rawModeData": ""
+        }
+    ]
+}
