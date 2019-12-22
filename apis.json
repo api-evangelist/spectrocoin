@@ -11,8 +11,8 @@
         "marketplaces",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/spectrocoin\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -26,15 +26,11 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectrocoin-merchant.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/spectrocoin\/master\/spectrocoin-merchant-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectrocoin-merchant-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectrocoin-merchant-postman-collection.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectrocoin-merchant.json"
                 }
             ]
         },
@@ -48,21 +44,21 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectro-coin-merchant.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/spectrocoin\/master\/spectro-coin-merchant-openapi.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectro-coin-merchant-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/spectro-coin-merchant-postman-collection.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/spectro-coin-merchant.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Crunchbase",
             "url": "https:\/\/crunchbase.com\/organization\/spectrocoin"
