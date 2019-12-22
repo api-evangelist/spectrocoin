@@ -1,5 +1,5 @@
 {
-    "id": "13e709291f6a9a8ed9e28ef7c4e2100f",
+    "id": "4d1979ec591237cd7e84389d706a51ca",
     "name": "SpectroCoin Merchant",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "cd55747e0346a4cee5d4ca5f69217647",
+            "id": "6d325b41a4943c185905586af597965d",
             "name": "Create merchant order",
             "url": "http:\/\/spectrocoin.com\/api\/merchant\/1\/api\/createOrder",
             "description": "",
@@ -29,7 +29,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "13e709291f6a9a8ed9e28ef7c4e2100f",
+            "collectionId": "4d1979ec591237cd7e84389d706a51ca",
             "rawModeData": ""
         }
     ]
